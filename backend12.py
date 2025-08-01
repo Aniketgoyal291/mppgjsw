@@ -12,7 +12,7 @@ import tempfile
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-IMGBB_API_KEY = "02b10ba01695e9bb477f0155e4b7a3a0" 
+IMGBB_API_KEY = os.getenv("IMGBB_API_KEY")
 API_URL = "https://api.openai.com/v1/chat/completions"
 
 # Full JSON schema for all parameters
