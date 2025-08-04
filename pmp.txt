@@ -1,0 +1,6 @@
+Search the image for any revision-related information. The revision number may appear as "REV", "Revision", or similar terms, often located near the drawing number or part number. 
+
+- The revision number will typically be a two-digit value (e.g., 00, 01, 02, 03).
+- If found, return the revision value; if no revision number is present, return "NA" or indicate it is missing.
+
+Focus on areas around the **drawing number** or part number, and ensure you accurately identify any revision values that are specified in the image.
